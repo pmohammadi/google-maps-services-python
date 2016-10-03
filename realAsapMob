@@ -1,0 +1,5 @@
+import random
+longitudes = random.sample(xrange(700), 2)
+latitudes = random.sample(xrange(700), 2)
+city1 = (longitudes[0], latitudes[0])
+city2 = (longitudes[1], latitudes[1])
